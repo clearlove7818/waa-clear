@@ -1,6 +1,6 @@
 # 与独立 tech-doc 协作
 
-`tech-doc-style-chinese` 保持独立。本包没有复制它的 Skill、规则库、工具或平台配置，也不安装、不修改它；这里只记录接口与冲突裁决。该项目作者 Fenng；详见 [来源通知](../THIRD_PARTY_NOTICES.md)。
+`waa-relax-go` 负责中文表达与交互，独立的 `tech-doc-style-chinese` 补充技术文档要求。本文件说明读取条件和风格裁决。
 
 ## 必须何时读取
 
@@ -77,4 +77,4 @@
 
 ## 检查器不替代独立规范
 
-本包 `--style tech-doc` 是实际 typography／lexicon 适配模式，不是 tech-doc 全套检查器。它处理 quote mode 和语境提示，保留原有 STC 的其他可检查项；不会证明 API 状态翻译、Markdown 换行、渲染、事实、安全或语义一致。必须同时读取适用专门参考并人工复核，不能仅切 flag 后声称“已完成完整 tech-doc”。详见 [工具说明](../tools/README.md)。
+检查器的 `--style tech-doc` 提供引号与用词提示。API 状态、段落格式、事实语义和实际呈现必须结合独立 tech-doc 的适用参考人工复核。参数见[工具说明](../tools/README.md)。
